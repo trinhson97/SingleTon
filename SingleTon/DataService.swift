@@ -31,6 +31,7 @@ class DataService {
     func removeNumber(from index : IndexPath){
         _numbers?.remove(at: index.row)
         
+        
     }
 }
 
